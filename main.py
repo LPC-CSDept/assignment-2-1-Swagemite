@@ -6,9 +6,9 @@ def main():
     percM = num_males / (num_males + num_females) *100
     percF = num_females / (num_males + num_females) * 100
     total = num_males + num_females
-    print(total)
-    print(num_males, num_females)
-    print(f'Percentage of males: \t {percM:.2f}%')
+    print('The total number of student:', total)
+    print('The number of males and femmales:',num_males, num_females)
+    print(f'Percentage of males : \t {percM:.2f}%')
     print(f'Percentage of females: \t {percF:.2f}%')
     ##################################################
     pass
